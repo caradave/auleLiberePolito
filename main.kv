@@ -1,0 +1,13 @@
+<MyGridLayout>:
+    cols: 1
+
+    Label:
+        text: 'Inserisci la fascia oraria:'
+
+    TextInput:
+        id: time_input
+        hint_text: 'Formato: HH:MM'
+
+    Button:
+        text: 'Conferma'
+        on_press: root.on_submit()
